@@ -93,11 +93,14 @@ main {
         margin: 0 0 0 120px;
         width: 500px;
         height: 800px;
+
+        h1 {
+            font: 400 40px 'Oswald';
+            text-transform: uppercase;
+            color: #000000;
+            margin-bottom: 40px;
+        }
     }
 
-    h1 {
-        font: 400 40px 'Oswald';
-        text-transform: uppercase;
-        color: #000000;
-    }
+
 }
