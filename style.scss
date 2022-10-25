@@ -89,15 +89,38 @@ main {
         background-repeat: no-repeat;
     }
 
-    .text-content {
-        margin: 0 0 0 120px;
-        width: 500px;
-        height: 800px;
-    }
 
-    h1 {
-        font: 400 40px 'Oswald';
-        text-transform: uppercase;
-        color: #000000;
+
+}
+
+.text-content {
+    margin: 0 0 0 120px;
+    width: 500px;
+    height: 800px;
+
+}
+
+h1 {
+    font: 400 40px 'Oswald';
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 70px;
+
+}
+
+.drop-list {
+    p {
+        margin-top: 70px;
     }
+}
+
+.plus {
+    background-image: url(./image/Frame.svg);
+    width: 25px;
+    height: 25px;
+}
+
+.block {
+    display: flex;
+    flex-direction: row;
 }
