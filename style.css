@@ -17,11 +17,11 @@ header {
   display: flex;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 1440px;
   position: fixed;
   top: 0;
@@ -30,29 +30,34 @@ header {
   z-index: 1;
   margin: auto 0px 273px;
 }
+
 header nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
+
 header nav li {
   list-style-type: none;
   font: 400 16px "Oswald";
 }
+
 header nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
+
 header nav ul li:not(last-child) {
   margin-right: 40px;
 }
+
 header nav ul li:hover {
   color: #B8BECD;
 }
@@ -87,9 +92,10 @@ main {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
 }
+
 main .img-big {
   background-image: url(./image/big-foto.svg);
   width: 540px;
@@ -118,6 +124,7 @@ h1 {
   background-image: url(./image/Frame.svg);
   width: 25px;
   height: 25px;
+  margin: 20px 0 0 70px;
 }
 
 .block {
@@ -126,6 +133,6 @@ h1 {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
 }
